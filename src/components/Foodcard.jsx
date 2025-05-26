@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Foodcard = () => {
+const Foodcard = ({ image, title, description, origin }) => {
 
   const FoodData = [
 
@@ -27,6 +27,14 @@ const Foodcard = () => {
     <section id='Foodcard' className="container mx-auto px-4 py-8 ">
     <div>
       <h2 className="text-4xl text-center pt-10 pb-5 font-bold">Food selection</h2>
+      <div className="bg-white shadow-lg rounded-2xl overflow-hidden max-w-sm hover:shadow-xl transition-shadow duration-300">
+      <img src={FoodData.image} alt={FoodData.title} className="w-full h-48 object-cover" />
+      <div className="p-4">
+        <h3 className="text-xl font-bold text-gray-900 mb-1">{FoodData.title}</h3>
+        <p className="text-sm text-gray-500 mb-2 italic">{origin}</p>
+        <p className="text-gray-700 text-sm line-clamp-3">{FoodData.description}</p>
+      </div>
+    </div>
     </div>
     
     
