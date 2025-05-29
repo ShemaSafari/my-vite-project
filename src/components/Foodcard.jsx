@@ -9,26 +9,31 @@ const Foodcard = () => {
         image: "/Food/biltong-southAfrica.jpg",
         title: "Biltong",
         description: "Biltong is a traditional South African snack made by curing and air-drying meat.",
+        flag: "/Flags/SA flag.png",
       },
       {
         image: '/Food/Mandazi-Malawi.jpg',
         title: 'Mandazi',
         description: "Mandazi is a popular East African fried dough treat, often referred to as 'African doughnuts.'",
+        flag: '/Flags/Flag_of_Malawi.svg.png',
       },
       {
         image: "/Food/Chamucas-mocambique.jpg",
         title: "Chamucas",
         description: "Chamuças are savory pastries popular in Mozambican,with a triangular shape and a crisp, flaky pastry filled with spicy fillings.",
+        flag: '/Flags/Flag_of_Mozambique.svg.png',
       },
       {
         image: "/Food/Chamucas-mocambique.jpg",
         title: "Chamucas",
         description: "Chamuças are savory pastries popular in Mozambican,with a triangular shape and a crisp, flaky pastry filled with spicy fillings.",
+        flag: '/Flags/Flag_of_Mozambique.svg.png',
       },
       {
         image: "/Food/Chamucas-mocambique.jpg",
         title: "Chamucas",
         description: "Chamuças are savory pastries popular in Mozambican,with a triangular shape and a crisp, flaky pastry filled with spicy fillings.",
+        flag: '/Flags/Flag_of_Mozambique.svg.png',
       },
       
 
@@ -47,6 +52,9 @@ const Foodcard = () => {
           <p className="text-gray-600">{food.description}</p>
           <button className="border text-sm text-gray-500 border-gray-500/30 w-28 h-8 rounded-full mt-5 hover:bg-green-500 hover:text-white">
                 <p className="mb-1 ">Get recipe</p>
+          </button>
+          <button className="pl-2 r ">
+            <img className="w-7 h-5 rounded-sm flex items-center " src={food.flag} alt="flag" />
           </button>
         </div>
       ))}

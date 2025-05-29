@@ -55,6 +55,7 @@ ul li:hover{
 .search-box img{
     width: 20px;
     cursor: pointer;
+    margin-right: 5px;
 }
 .search-box input::placeholder{
     font-size: large;
