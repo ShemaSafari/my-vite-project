@@ -6,7 +6,7 @@ const Footer = () => {
         <footer class="px-6 md:px-16 lg:px-24 xl:px-32 pt-8 w-full text-white">
             <div class="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-500/30 pb-6">
                 <div class="">
-                    <img class="h-20 rounded-lg" src="public/kindred-k-favicon.jpg" alt="dummyLogoDark"/>
+                    <img class="h-20 rounded-lg" src="/kindred-k-favicon.jpg" alt="dummyLogoDark"/>
                     <p class="mt-6 text-m">
                        This website is made by <span class="font-bold"> Shema Bruno and Anayo Anyafulu. </span><br />Shema Bruno was responsible for the front-end development using <b>React.js</b> and <b>Tailwind CSS</b>, while Anayo Anyafulu handled the back-end using the <b>Spring Boot</b> Java framework. <br /> <br />
                       We built this website as a hands-on project to deepen our understanding of web development and to lay the groundwork for offering professional web development services in the future.

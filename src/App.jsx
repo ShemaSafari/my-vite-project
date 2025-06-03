@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Flagslider from "./components/Flagslider";
 import Foodcard from "./components/Foodcard";
 import { Routes, Route } from 'react-router-dom'
-import Home from "./pages/home";
+import Home from "./pages/Home";
 
 
 
